@@ -1,8 +1,10 @@
+%define _provides_exceptions perl(MIME::Entity)
+
 %define ver 4.55.9
 %define rel 1
 %define version %{ver}_%{rel}
 %define srcversion %{ver}-%{rel}
-%define release %mkrel 3
+%define release %mkrel 4
 
 %define name    mailscanner
 
