@@ -95,7 +95,7 @@ s./usr/lib/sendmail./usr/sbin/sendmail.;
 EOF
 
 mkdir -p $RPM_BUILD_ROOT
-#mkdir -p ${RPM_BUILD_ROOT}%{_sysconfdir}/rc.d/init.d
+mkdir -p ${RPM_BUILD_ROOT}%{_sysconfdir}/rc.d/init.d
 mkdir -p ${RPM_BUILD_ROOT}%_sbindir
 mkdir -p ${RPM_BUILD_ROOT}%_mandir/man8
 mkdir -p ${RPM_BUILD_ROOT}%_mandir/man5
