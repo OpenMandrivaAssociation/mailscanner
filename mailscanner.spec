@@ -30,6 +30,7 @@ Source6: cron.hourly_update_bad_phishing_sites
 Source7: cron.hourly_update_virus_scanners
 Source8: MailScanner.init
 Source9: MailScanner.opt
+BuildRoot:   %{_tmppath}/%{name}-root
 BuildArch: noarch
 # This file is provided, but the inernal package named differ :\
 # This app really sucks !
