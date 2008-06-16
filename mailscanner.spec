@@ -5,8 +5,8 @@
 # This software just sucks !
 
 %define sourcename MailScanner
-%define ver 4.64.3
-%define rel 2
+%define ver 4.69.9
+%define rel 3
 %define srcversion %{ver}-%{rel}
 %define version %{ver}_%{rel}
 %define release %mkrel 1
@@ -797,7 +797,7 @@ exit 0
 /usr/lib/MailScanner/MailScanner/WorkArea.pm
 /usr/lib/MailScanner/MailScanner/ZMailer.pm
 /usr/lib/MailScanner/MailScanner/ZMDiskStore.pm
-/usr/lib/MailScanner/MailScanner/notes.txt
+#/usr/lib/MailScanner/MailScanner/notes.txt
 
 %files spamassassin
 %defattr(-,root, root)
