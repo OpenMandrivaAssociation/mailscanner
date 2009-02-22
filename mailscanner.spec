@@ -3,10 +3,14 @@
 # Hey you, who are looking this spec
 # welcome in hell !
 # This software just sucks !
+# One day maybe thoses guy will learn how:
+#  - to create a clean perl module
+#  - that distribution packager can do the good job from a standard 
+#    standalone module
 
 %define sourcename MailScanner
-%define ver 4.69.9
-%define rel 3
+%define ver 4.74.16
+%define rel 1
 %define srcversion %{ver}-%{rel}
 %define version %{ver}_%{rel}
 %define release %mkrel 1
@@ -20,6 +24,7 @@ Summary:     E-Mail Gateway Virus Scanner and Spam Detector
 Group:       Networking/Mail
 License:   GPL
 URL:         http://www.mailscanner.info/
+# This source is one of several (useless) module provide on the website
 Source:      %{sourcename}-%{srcversion}.tar.gz
 Source1:	MailScanner.conf
 Source2: cron.daily_clean.quarantine
@@ -797,6 +802,7 @@ exit 0
 /usr/lib/MailScanner/MailScanner/WorkArea.pm
 /usr/lib/MailScanner/MailScanner/ZMailer.pm
 /usr/lib/MailScanner/MailScanner/ZMDiskStore.pm
+/usr/lib/MailScanner/MailScanner/Antiword.pm
 #/usr/lib/MailScanner/MailScanner/notes.txt
 
 %files spamassassin
