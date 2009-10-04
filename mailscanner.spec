@@ -10,7 +10,7 @@
 
 %define sourcename MailScanner
 %define ver 4.74.16
-%define rel 2
+%define rel 1
 %define srcversion %{ver}-%{rel}
 %define version %{ver}_%{rel}
 %define release %mkrel 2
