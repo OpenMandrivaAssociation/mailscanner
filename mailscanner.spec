@@ -10,10 +10,10 @@
 
 %define sourcename MailScanner
 %define ver 4.74.16
-%define rel 1
+%define rel 2
 %define srcversion %{ver}-%{rel}
 %define version %{ver}_%{rel}
-%define release %mkrel 2
+%define release %mkrel 3
 
 %define _provides_exceptions perl(MIME::Entity)
 
