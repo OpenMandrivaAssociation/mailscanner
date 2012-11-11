@@ -1,0 +1,10 @@
+sources:
+  "cron.daily_clean.quarantine:"	ab55fe8350567f5ca1c1876022c1fe339abc36bf
+  "cron.daily_update_phishing_sites:"	1a3a9a0c24609c1f5bc91ca7f6e2797654bbf6ed
+  "cron.daily_update_spamassassin:"	41336aa9757e8f40bc098eccf6b42fa1d2eeceb0
+  "cron.hourly_check_MailScanner:"	b8254455cbdc08063ac93bfc7bb495d1f7eaec35
+  "cron.hourly_update_bad_phishing_sites:"	aa0fe2bc4e4165191d8300bc62dbf051e7bddaad
+  "cron.hourly_update_virus_scanners:"	e33b5a2430db90b723164c7a37e1b7551b2cd912
+  "MailScanner.conf:"	6c3ebab45f29f27abd97f76e0831d41746da29dd
+  "MailScanner.init:"	95127f935bb6b0d93e5d385f28d40dd99c40212e
+  "MailScanner.opt:"	01c46a4132797c73a8ba830c15f1cb85934fcdfb
