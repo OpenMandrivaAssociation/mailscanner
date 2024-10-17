@@ -23,7 +23,7 @@ Release:     %{release}
 Summary:     E-Mail Gateway Virus Scanner and Spam Detector
 Group:       Networking/Mail
 License:   GPL
-URL:         http://www.mailscanner.info/
+URL:         https://www.mailscanner.info/
 # This source is one of several (useless) module provide on the website
 Source:      %{sourcename}-%{srcversion}.tar.gz
 Source1:	MailScanner.conf
