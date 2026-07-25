@@ -13,7 +13,7 @@
 %define rel 2
 %define srcversion %{ver}-%{rel}
 %define version %{ver}_%{rel}
-%define release %mkrel 3
+%define release 4
 
 %define _provides_exceptions perl(MIME::Entity)
 
